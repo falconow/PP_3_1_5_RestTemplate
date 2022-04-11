@@ -28,7 +28,7 @@ public class RestTemplateUserService {
     }
 
 
-    public void test() {
+    public void getKey() {
         //Ключ ответа
         StringBuilder answer = new StringBuilder();
         //Получаем всех пользователей

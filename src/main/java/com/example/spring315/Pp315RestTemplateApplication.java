@@ -12,7 +12,7 @@ public class Pp315RestTemplateApplication {
         ApplicationContext ctx = SpringApplication.run(Pp315RestTemplateApplication.class, args);
         RestTemplateUserService restTemplateUserService = ctx.getBean(RestTemplateUserService.class);
 
-        restTemplateUserService.test();
+        restTemplateUserService.getKey();
 
 
 
